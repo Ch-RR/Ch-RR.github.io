@@ -216,7 +216,7 @@ y = \Phi x \tag{2}</script><p>由于 $y$ 的维数远远低于 $x$ 的维数，�
 <script type="math/tex; mode=display">
 \hat{\boldsymbol{x}} = \arg\min \|\boldsymbol{x}\|_0 \quad \text{s.t.} \quad \Phi \boldsymbol{x} = \boldsymbol{y},\tag{3}</script><p>其中 $|\boldsymbol{x}|_0$ 表示 $\boldsymbol{x}$ 中非零元素的个数。</p>
 <hr>
-<h3 id="定理：Candes–Tao-定理"><a href="#定理：Candes–Tao-定理" class="headerlink" title="定理：Candès–Tao 定理"></a>定理：Candès–Tao 定理</h3><p>设  $x<em>0 \in \mathbb{R}^N$  是 $s$-稀疏向量， $A \in \mathbb{R}^{m \times N}$  是测量矩阵，满足条件： $\delta</em>{2s} &lt; \sqrt{2} - 1$ 。令 $y = A x_0$，则通过</p>
+<h3 id="定理：Candes–Tao-定理"><a href="#定理：Candes–Tao-定理" class="headerlink" title="定理：Candès–Tao 定理"></a>定理：Candès–Tao 定理</h3><p>设 $x<em>0 \in \mathbb{R}^N$ 是 $s$-稀疏向量，$A \in \mathbb{R}^{m \times N}$ 是测量矩阵，满足条件 $\delta</em>{2s} &lt; \sqrt{2}-1$。令 $y = A x_0$，则通过</p>
 <script type="math/tex; mode=display">
 \hat{x} = \arg\min \|x\|_1 \quad \text{s.t.} \quad A x = y\tag{4}</script><p>可以恢复 $x_0$。</p>
 <h4 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h4><p>设 $\hat{x}$ 是 $\ell_1$ 最小化的解，定义误差向量</p>
